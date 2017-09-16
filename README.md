@@ -1,5 +1,5 @@
 # Spatial-data-analysis-system
-##该程序的主要功能有： 
+## 该程序的主要功能有： 
 * 分别从Point.txt 、Line.txt 、 Rect.txt读入所有数据（ Point 对象, Rect 对象, Line 对象）， 保存在 vector 中， 通过调用 GetCount()输出 Point、 Rect、 Line 对象个数<br>
 * 任意给一个 Point 对象，找出所有和该对象成员变量 des相同的 Rect 对象(即Point 的变量 des 和 Rect 的变量 des 相同)， 输出所有的 Rect 对象到屏幕；任意给一个Rect 对象，找出所有和该对象的 des 相同的 Point 对象，输出所有的 Point 对象到屏幕 <br>
 * 遍历存储 Rect 的vector， 找出面积最小和最大的 Rect， 将最小和最大的 Rect 写入到文件 Rect_data.txt；遍历存储 Line 的结构(vector 或 List)， 找出长度最小和最大的 Line，将最小和最大的 Rect 写入到文件 Line_data.txt。<br>
